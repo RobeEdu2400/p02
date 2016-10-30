@@ -1,9 +1,16 @@
 ﻿Public Class Form1
+    Dim tNumeros(8) As Integer
     Private Sub Ordenación_Click(sender As Object, e As EventArgs) Handles Ordenación.Click
-
+        Dim valor1 As Integer
+        Dim valor2 As Integer
+        Dim valor3 As Integer
+        Dim valor4 As Integer
+        Dim valor5 As Integer
+        Dim valor6 As Integer
+        Dim valor7 As Integer
+        Dim valor8 As Integer
         If (TextBox1.Text <> "") Then
             Try
-                Dim valor1 As Integer
                 valor1 = CInt(TextBox1.Text)
                 TextBox1.BackColor = Color.White
 
@@ -18,7 +25,6 @@
         End If
         If (TextBox2.Text <> "") Then
             Try
-                Dim valor2 As Integer
                 valor2 = CInt(TextBox2.Text)
                 TextBox1.BackColor = Color.White
 
@@ -34,7 +40,6 @@
 
         If (TextBox3.Text <> "") Then
             Try
-                Dim valor3 As Integer
                 valor3 = CInt(TextBox3.Text)
                 TextBox3.BackColor = Color.White
 
@@ -50,7 +55,6 @@
 
         If (TextBox4.Text <> "") Then
             Try
-                Dim valor4 As Integer
                 valor4 = CInt(TextBox4.Text)
                 TextBox4.BackColor = Color.White
 
@@ -66,7 +70,6 @@
 
         If (TextBox5.Text <> "") Then
             Try
-                Dim valor5 As Integer
                 valor5 = CInt(TextBox5.Text)
                 TextBox5.BackColor = Color.White
 
@@ -82,7 +85,6 @@
 
         If (TextBox6.Text <> "") Then
             Try
-                Dim valor6 As Integer
                 valor6 = CInt(TextBox6.Text)
                 TextBox6.BackColor = Color.White
 
@@ -98,7 +100,6 @@
 
         If (TextBox7.Text <> "") Then
             Try
-                Dim valor7 As Integer
                 valor7 = CInt(TextBox7.Text)
                 TextBox7.BackColor = Color.White
 
@@ -114,7 +115,6 @@
 
         If (TextBox8.Text <> "") Then
             Try
-                Dim valor8 As Integer
                 valor8 = CInt(TextBox8.Text)
                 TextBox8.BackColor = Color.White
 
@@ -127,7 +127,28 @@
         Else
             TextBox8.BackColor = Color.White
         End If
+
+        tNumeros = {valor1, valor2, valor3, valor4, valor5, valor6, valor7, valor8}
+
+        For c = 0 To 7
+            For c1 = c To 7
+                If (tNumeros(c) > tNumeros(c1)) Then
+                    Dim auxiliar As Integer
+                    auxiliar = tNumeros(c1)
+                    tNumeros(c1) = tNumeros(c)
+                    tNumeros(c) = auxiliar
+                End If
+            Next c1
+        Next c
+
+        TextBox1.Text = tNumeros(0)
+        TextBox2.Text = tNumeros(1)
+        TextBox3.Text = tNumeros(2)
+        TextBox4.Text = tNumeros(3)
+        TextBox5.Text = tNumeros(4)
+        TextBox6.Text = tNumeros(5)
+        TextBox7.Text = tNumeros(6)
+        TextBox8.Text = tNumeros(7)
+
     End Sub
-
-
 End Class
