@@ -54,6 +54,9 @@ Partial Class Form1
         Me.Label14 = New System.Windows.Forms.Label()
         Me.Label15 = New System.Windows.Forms.Label()
         Me.Label16 = New System.Windows.Forms.Label()
+        Me.Label17 = New System.Windows.Forms.Label()
+        Me.Lenguaje = New System.Windows.Forms.ComboBox()
+        Me.Label18 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'Ordenación
@@ -146,7 +149,7 @@ Partial Class Form1
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(427, 237)
+        Me.Button1.Location = New System.Drawing.Point(227, 374)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(100, 33)
         Me.Button1.TabIndex = 13
@@ -155,28 +158,28 @@ Partial Class Form1
         '
         'TextBox9
         '
-        Me.TextBox9.Location = New System.Drawing.Point(321, 242)
+        Me.TextBox9.Location = New System.Drawing.Point(102, 385)
         Me.TextBox9.Name = "TextBox9"
         Me.TextBox9.Size = New System.Drawing.Size(100, 22)
         Me.TextBox9.TabIndex = 12
         '
         'TextBox10
         '
-        Me.TextBox10.Location = New System.Drawing.Point(89, 368)
+        Me.TextBox10.Location = New System.Drawing.Point(342, 208)
         Me.TextBox10.Name = "TextBox10"
         Me.TextBox10.Size = New System.Drawing.Size(100, 22)
         Me.TextBox10.TabIndex = 14
         '
         'TextBox11
         '
-        Me.TextBox11.Location = New System.Drawing.Point(89, 396)
+        Me.TextBox11.Location = New System.Drawing.Point(342, 236)
         Me.TextBox11.Name = "TextBox11"
         Me.TextBox11.Size = New System.Drawing.Size(100, 22)
         Me.TextBox11.TabIndex = 15
         '
         'Button3
         '
-        Me.Button3.Location = New System.Drawing.Point(211, 368)
+        Me.Button3.Location = New System.Drawing.Point(464, 208)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(100, 50)
         Me.Button3.TabIndex = 16
@@ -268,7 +271,7 @@ Partial Class Form1
         '
         Me.Label10.AutoSize = True
         Me.Label10.BackColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Label10.Location = New System.Drawing.Point(317, 368)
+        Me.Label10.Location = New System.Drawing.Point(488, 285)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(59, 17)
         Me.Label10.TabIndex = 17
@@ -277,7 +280,7 @@ Partial Class Form1
         'Label11
         '
         Me.Label11.AutoSize = True
-        Me.Label11.Location = New System.Drawing.Point(301, 196)
+        Me.Label11.Location = New System.Drawing.Point(45, 360)
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(176, 17)
         Me.Label11.TabIndex = 25
@@ -286,7 +289,7 @@ Partial Class Form1
         'Label12
         '
         Me.Label12.AutoSize = True
-        Me.Label12.Location = New System.Drawing.Point(50, 368)
+        Me.Label12.Location = New System.Drawing.Point(303, 208)
         Me.Label12.Name = "Label12"
         Me.Label12.Size = New System.Drawing.Size(34, 17)
         Me.Label12.TabIndex = 26
@@ -295,7 +298,7 @@ Partial Class Form1
         'Label13
         '
         Me.Label13.AutoSize = True
-        Me.Label13.Location = New System.Drawing.Point(50, 396)
+        Me.Label13.Location = New System.Drawing.Point(303, 236)
         Me.Label13.Name = "Label13"
         Me.Label13.Size = New System.Drawing.Size(33, 17)
         Me.Label13.TabIndex = 27
@@ -304,7 +307,7 @@ Partial Class Form1
         'Label14
         '
         Me.Label14.AutoSize = True
-        Me.Label14.Location = New System.Drawing.Point(264, 245)
+        Me.Label14.Location = New System.Drawing.Point(45, 388)
         Me.Label14.Name = "Label14"
         Me.Label14.Size = New System.Drawing.Size(51, 17)
         Me.Label14.TabIndex = 28
@@ -313,11 +316,11 @@ Partial Class Form1
         'Label15
         '
         Me.Label15.AutoSize = True
-        Me.Label15.Location = New System.Drawing.Point(50, 339)
+        Me.Label15.Location = New System.Drawing.Point(303, 179)
         Me.Label15.Name = "Label15"
-        Me.Label15.Size = New System.Drawing.Size(162, 17)
+        Me.Label15.Size = New System.Drawing.Size(136, 17)
         Me.Label15.TabIndex = 29
-        Me.Label15.Text = "Ultimo día del mes y año"
+        Me.Label15.Text = "Introduce mes y año"
         '
         'Label16
         '
@@ -328,11 +331,42 @@ Partial Class Form1
         Me.Label16.TabIndex = 30
         Me.Label16.Text = "Ordenar"
         '
+        'Label17
+        '
+        Me.Label17.AutoSize = True
+        Me.Label17.Location = New System.Drawing.Point(300, 285)
+        Me.Label17.Name = "Label17"
+        Me.Label17.Size = New System.Drawing.Size(182, 17)
+        Me.Label17.TabIndex = 31
+        Me.Label17.Text = "Ultimo día del mes del año: "
+        '
+        'Lenguaje
+        '
+        Me.Lenguaje.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.Lenguaje.FormattingEnabled = True
+        Me.Lenguaje.Items.AddRange(New Object() {"Español", "Català"})
+        Me.Lenguaje.Location = New System.Drawing.Point(464, 381)
+        Me.Lenguaje.Name = "Lenguaje"
+        Me.Lenguaje.Size = New System.Drawing.Size(99, 24)
+        Me.Lenguaje.TabIndex = 32
+        '
+        'Label18
+        '
+        Me.Label18.AutoSize = True
+        Me.Label18.Location = New System.Drawing.Point(469, 361)
+        Me.Label18.Name = "Label18"
+        Me.Label18.Size = New System.Drawing.Size(94, 17)
+        Me.Label18.TabIndex = 33
+        Me.Label18.Text = "Elije el idioma"
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(543, 447)
+        Me.ClientSize = New System.Drawing.Size(612, 430)
+        Me.Controls.Add(Me.Label18)
+        Me.Controls.Add(Me.Lenguaje)
+        Me.Controls.Add(Me.Label17)
         Me.Controls.Add(Me.Label16)
         Me.Controls.Add(Me.Label15)
         Me.Controls.Add(Me.Label14)
@@ -405,4 +439,7 @@ Partial Class Form1
     Friend WithEvents Label14 As Label
     Friend WithEvents Label15 As Label
     Friend WithEvents Label16 As Label
+    Friend WithEvents Label17 As Label
+    Friend WithEvents Lenguaje As ComboBox
+    Friend WithEvents Label18 As Label
 End Class

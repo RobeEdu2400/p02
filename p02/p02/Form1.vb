@@ -1,4 +1,5 @@
 ﻿Public Class Form1
+    Dim cambio As New Lenguaje
     Dim tNumeros(7) As String
     Dim continuar As Boolean
     Dim qt As Integer
@@ -195,4 +196,11 @@
         continuar = True
     End Sub
 
+    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Lenguaje.SelectedItem = "Español"
+    End Sub
+
+    Private Sub Lenguaje_SelectedIndexChanged(sender As Object, e As EventArgs) Handles Lenguaje.SelectedIndexChanged
+        cambio.Textos_cambios()
+    End Sub
 End Class
