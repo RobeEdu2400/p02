@@ -173,9 +173,9 @@ Partial Class Form1
         '
         'Button3
         '
-        Me.Button3.Location = New System.Drawing.Point(447, 246)
+        Me.Button3.Location = New System.Drawing.Point(447, 258)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(100, 31)
+        Me.Button3.Size = New System.Drawing.Size(100, 33)
         Me.Button3.TabIndex = 16
         Me.Button3.Text = "Ultimo Día"
         Me.Button3.UseVisualStyleBackColor = True
@@ -302,7 +302,7 @@ Partial Class Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(599, 343)
+        Me.ClientSize = New System.Drawing.Size(580, 342)
         Me.Controls.Add(Me.Label13)
         Me.Controls.Add(Me.Label12)
         Me.Controls.Add(Me.Label11)

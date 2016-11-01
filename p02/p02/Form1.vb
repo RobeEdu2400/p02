@@ -1,5 +1,5 @@
 ﻿Public Class Form1
-    Dim tNumeros(8) As Integer
+    Dim tNumeros(8) As Double
     Dim continuar As Boolean
     Private Sub Ordenación_Click(sender As Object, e As EventArgs) Handles Ordenación.Click
         continuar = False
@@ -7,11 +7,11 @@
         If (continuar = False) Then
             Exit Sub
         End If
+        Dim auxiliar As Double
         If (RadioButton1.Checked = True) Then
             For c = 0 To 7
                 For c1 = c To 7
                     If (tNumeros(c) > tNumeros(c1)) Then
-                        Dim auxiliar As String
                         auxiliar = tNumeros(c1)
                         tNumeros(c1) = tNumeros(c)
                         tNumeros(c) = auxiliar
@@ -22,7 +22,6 @@
             For c = 0 To 7
                 For c1 = c To 7
                     If (tNumeros(c) < tNumeros(c1)) Then
-                        Dim auxiliar As String
                         auxiliar = tNumeros(c1)
                         tNumeros(c1) = tNumeros(c)
                         tNumeros(c) = auxiliar
@@ -30,16 +29,14 @@
                 Next c1
             Next c
         End If
-
-        TextBox1.Text = tNumeros(0)
-        TextBox2.Text = tNumeros(1)
-        TextBox3.Text = tNumeros(2)
-        TextBox4.Text = tNumeros(3)
-        TextBox5.Text = tNumeros(4)
-        TextBox6.Text = tNumeros(5)
-        TextBox7.Text = tNumeros(6)
-        TextBox8.Text = tNumeros(7)
-
+        TextBox1.Text = CStr(tNumeros(0))
+        TextBox2.Text = CStr(tNumeros(1))
+        TextBox3.Text = CStr(tNumeros(2))
+        TextBox4.Text = CStr(tNumeros(3))
+        TextBox5.Text = CStr(tNumeros(4))
+        TextBox6.Text = CStr(tNumeros(5))
+        TextBox7.Text = CStr(tNumeros(6))
+        TextBox8.Text = CStr(tNumeros(7))
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
@@ -48,29 +45,38 @@
         If (continuar = False) Then
             Exit Sub
         End If
+        TextBox1.Text = CStr(tNumeros(0))
+        TextBox2.Text = CStr(tNumeros(1))
+        TextBox3.Text = CStr(tNumeros(2))
+        TextBox4.Text = CStr(tNumeros(3))
+        TextBox5.Text = CStr(tNumeros(4))
+        TextBox6.Text = CStr(tNumeros(5))
+        TextBox7.Text = CStr(tNumeros(6))
+        TextBox8.Text = CStr(tNumeros(7))
         Dim contador As Integer = 0
         Dim divisor As Integer
         Try
             divisor = CInt(TextBox9.Text)
-        Catch
-            MsgBox("No se puede realizar la operación")
-            Exit Sub
-
-        End Try
-        For c = 0 To 7
-                If (tNumeros(c) <> "") Then
-                    If (tNumeros(c) Mod TextBox9.Text = 0) Then
+            For c = 0 To 7
+                If (tNumeros(c) Mod divisor = 0) Then
+                    If (tNumeros(c) <> 0) Then
                         contador = contador + 1
                     End If
                 End If
             Next
             MsgBox("Hay en total de: " + CStr(contador) + " textbox que son divisibles por el número que ha introducido")
 
+        Catch
+            MsgBox("No se puede realizar la operación")
+            Exit Sub
+
+        End Try
+
     End Sub
     Private Sub comprobacionTexto()
         If (TextBox1.Text <> "") Then
             Try
-                tNumeros(0) = CInt(TextBox1.Text)
+                tNumeros(0) = CDbl(TextBox1.Text)
                 TextBox1.BackColor = Color.White
             Catch ex As Exception
                 MsgBox("Nº1 es un valor erroneo, introduce un número")
@@ -83,7 +89,7 @@
         End If
         If (TextBox2.Text <> "") Then
             Try
-                tNumeros(1) = CInt(TextBox2.Text)
+                tNumeros(1) = CDbl(TextBox2.Text)
                 TextBox1.BackColor = Color.White
 
             Catch ex As Exception
@@ -98,7 +104,7 @@
 
         If (TextBox3.Text <> "") Then
             Try
-                tNumeros(2) = CInt(TextBox3.Text)
+                tNumeros(2) = CDbl(TextBox3.Text)
                 TextBox3.BackColor = Color.White
 
             Catch ex As Exception
@@ -113,7 +119,7 @@
 
         If (TextBox4.Text <> "") Then
             Try
-                tNumeros(3) = CInt(TextBox4.Text)
+                tNumeros(3) = CDbl(TextBox4.Text)
                 TextBox4.BackColor = Color.White
 
             Catch ex As Exception
@@ -128,7 +134,7 @@
 
         If (TextBox5.Text <> "") Then
             Try
-                tNumeros(4) = CInt(TextBox5.Text)
+                tNumeros(4) = CDbl(TextBox5.Text)
                 TextBox5.BackColor = Color.White
 
             Catch ex As Exception
@@ -143,7 +149,7 @@
 
         If (TextBox6.Text <> "") Then
             Try
-                tNumeros(5) = CInt(TextBox6.Text)
+                tNumeros(5) = CDbl(TextBox6.Text)
                 TextBox6.BackColor = Color.White
 
             Catch ex As Exception
@@ -158,7 +164,7 @@
 
         If (TextBox7.Text <> "") Then
             Try
-                tNumeros(6) = CInt(TextBox7.Text)
+                tNumeros(6) = CDbl(TextBox7.Text)
                 TextBox7.BackColor = Color.White
 
             Catch ex As Exception
@@ -173,7 +179,7 @@
 
         If (TextBox8.Text <> "") Then
             Try
-                tNumeros(7) = CInt(TextBox8.Text)
+                tNumeros(7) = CDbl(TextBox8.Text)
                 TextBox8.BackColor = Color.White
 
             Catch ex As Exception
@@ -187,5 +193,4 @@
         End If
         continuar = True
     End Sub
-
 End Class
