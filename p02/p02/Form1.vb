@@ -1,27 +1,28 @@
 ﻿Public Class Form1
-    Dim tNumeros(8) As Double
+    Dim tNumeros(7) As String
     Dim continuar As Boolean
+    Dim qt As Integer
     Private Sub Ordenación_Click(sender As Object, e As EventArgs) Handles Ordenación.Click
         continuar = False
         comprobacionTexto()
         If (continuar = False) Then
             Exit Sub
         End If
-        Dim auxiliar As Double
-        If (RadioButton1.Checked = True) Then
+        Dim auxiliar As String
+        If (RadioButton2.Checked = True) Then
             For c = 0 To 7
                 For c1 = c To 7
-                    If (tNumeros(c) > tNumeros(c1)) Then
+                    If (CInt(tNumeros(c)) < CInt(tNumeros(c1))) Then
                         auxiliar = tNumeros(c1)
                         tNumeros(c1) = tNumeros(c)
                         tNumeros(c) = auxiliar
                     End If
                 Next c1
             Next c
-        ElseIf (RadioButton2.Checked = True) Then
+        ElseIf (RadioButton1.Checked = True) Then
             For c = 0 To 7
                 For c1 = c To 7
-                    If (tNumeros(c) < tNumeros(c1)) Then
+                    If (CInt(tNumeros(c)) > CInt(tNumeros(c1))) Then
                         auxiliar = tNumeros(c1)
                         tNumeros(c1) = tNumeros(c)
                         tNumeros(c) = auxiliar
@@ -29,14 +30,14 @@
                 Next c1
             Next c
         End If
-        TextBox1.Text = CStr(tNumeros(0))
-        TextBox2.Text = CStr(tNumeros(1))
-        TextBox3.Text = CStr(tNumeros(2))
-        TextBox4.Text = CStr(tNumeros(3))
-        TextBox5.Text = CStr(tNumeros(4))
-        TextBox6.Text = CStr(tNumeros(5))
-        TextBox7.Text = CStr(tNumeros(6))
-        TextBox8.Text = CStr(tNumeros(7))
+        TextBox1.Text = tNumeros(0)
+        TextBox2.Text = tNumeros(1)
+        TextBox3.Text = tNumeros(2)
+        TextBox4.Text = tNumeros(3)
+        TextBox5.Text = tNumeros(4)
+        TextBox6.Text = tNumeros(5)
+        TextBox7.Text = tNumeros(6)
+        TextBox8.Text = tNumeros(7)
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
@@ -45,14 +46,14 @@
         If (continuar = False) Then
             Exit Sub
         End If
-        TextBox1.Text = CStr(tNumeros(0))
-        TextBox2.Text = CStr(tNumeros(1))
-        TextBox3.Text = CStr(tNumeros(2))
-        TextBox4.Text = CStr(tNumeros(3))
-        TextBox5.Text = CStr(tNumeros(4))
-        TextBox6.Text = CStr(tNumeros(5))
-        TextBox7.Text = CStr(tNumeros(6))
-        TextBox8.Text = CStr(tNumeros(7))
+        TextBox1.Text = tNumeros(0)
+        TextBox2.Text = tNumeros(1)
+        TextBox3.Text = tNumeros(2)
+        TextBox4.Text = tNumeros(3)
+        TextBox5.Text = tNumeros(4)
+        TextBox6.Text = tNumeros(5)
+        TextBox7.Text = tNumeros(6)
+        TextBox8.Text = tNumeros(7)
         Dim contador As Integer = 0
         Dim divisor As Integer
         Try
@@ -90,7 +91,7 @@
         If (TextBox2.Text <> "") Then
             Try
                 tNumeros(1) = CDbl(TextBox2.Text)
-                TextBox1.BackColor = Color.White
+                TextBox2.BackColor = Color.White
 
             Catch ex As Exception
                 MsgBox("Nº2 es un valor erroneo, introduce un número")
@@ -193,4 +194,5 @@
         End If
         continuar = True
     End Sub
+
 End Class
