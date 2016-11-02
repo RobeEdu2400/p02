@@ -22,383 +22,383 @@ Partial Class Form1
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.Ordenación = New System.Windows.Forms.Button()
-        Me.RadioButton1 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton2 = New System.Windows.Forms.RadioButton()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
-        Me.TextBox5 = New System.Windows.Forms.TextBox()
-        Me.TextBox6 = New System.Windows.Forms.TextBox()
-        Me.TextBox7 = New System.Windows.Forms.TextBox()
-        Me.TextBox8 = New System.Windows.Forms.TextBox()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.btn1 = New System.Windows.Forms.Button()
+        Me.rbtn1 = New System.Windows.Forms.RadioButton()
+        Me.rbtn2 = New System.Windows.Forms.RadioButton()
+        Me.txt2 = New System.Windows.Forms.TextBox()
+        Me.txt3 = New System.Windows.Forms.TextBox()
+        Me.txt1 = New System.Windows.Forms.TextBox()
+        Me.txt4 = New System.Windows.Forms.TextBox()
+        Me.txt5 = New System.Windows.Forms.TextBox()
+        Me.txt6 = New System.Windows.Forms.TextBox()
+        Me.txt7 = New System.Windows.Forms.TextBox()
+        Me.txt8 = New System.Windows.Forms.TextBox()
+        Me.btn4 = New System.Windows.Forms.Button()
         Me.TextBox9 = New System.Windows.Forms.TextBox()
-        Me.TextBox10 = New System.Windows.Forms.TextBox()
-        Me.TextBox11 = New System.Windows.Forms.TextBox()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.Label5 = New System.Windows.Forms.Label()
-        Me.Label6 = New System.Windows.Forms.Label()
-        Me.Label7 = New System.Windows.Forms.Label()
-        Me.Label8 = New System.Windows.Forms.Label()
-        Me.Label9 = New System.Windows.Forms.Label()
-        Me.Label10 = New System.Windows.Forms.Label()
-        Me.Label11 = New System.Windows.Forms.Label()
-        Me.Label12 = New System.Windows.Forms.Label()
-        Me.Label13 = New System.Windows.Forms.Label()
-        Me.Label14 = New System.Windows.Forms.Label()
-        Me.Label15 = New System.Windows.Forms.Label()
-        Me.Label16 = New System.Windows.Forms.Label()
-        Me.Label17 = New System.Windows.Forms.Label()
+        Me.txtnum9 = New System.Windows.Forms.TextBox()
+        Me.txt10 = New System.Windows.Forms.TextBox()
+        Me.btn2 = New System.Windows.Forms.Button()
+        Me.lbl1 = New System.Windows.Forms.Label()
+        Me.lblnum1 = New System.Windows.Forms.Label()
+        Me.lblnum2 = New System.Windows.Forms.Label()
+        Me.lblnum3 = New System.Windows.Forms.Label()
+        Me.lblnum4 = New System.Windows.Forms.Label()
+        Me.lblnum5 = New System.Windows.Forms.Label()
+        Me.lblnum6 = New System.Windows.Forms.Label()
+        Me.lblnum7 = New System.Windows.Forms.Label()
+        Me.lblnum8 = New System.Windows.Forms.Label()
+        Me.lbl11 = New System.Windows.Forms.Label()
+        Me.lbl12 = New System.Windows.Forms.Label()
+        Me.lbl4 = New System.Windows.Forms.Label()
+        Me.lbl5 = New System.Windows.Forms.Label()
+        Me.lbl13 = New System.Windows.Forms.Label()
+        Me.lbl3 = New System.Windows.Forms.Label()
+        Me.lbl7 = New System.Windows.Forms.Label()
+        Me.lbl6 = New System.Windows.Forms.Label()
         Me.Lenguaje = New System.Windows.Forms.ComboBox()
-        Me.Label18 = New System.Windows.Forms.Label()
+        Me.lbl14 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
-        'Ordenación
+        'btn1
         '
-        Me.Ordenación.Location = New System.Drawing.Point(304, 81)
-        Me.Ordenación.Name = "Ordenación"
-        Me.Ordenación.Size = New System.Drawing.Size(113, 39)
-        Me.Ordenación.TabIndex = 9
-        Me.Ordenación.Text = "Ordenación"
-        Me.Ordenación.UseVisualStyleBackColor = True
+        Me.btn1.Location = New System.Drawing.Point(304, 81)
+        Me.btn1.Name = "btn1"
+        Me.btn1.Size = New System.Drawing.Size(113, 39)
+        Me.btn1.TabIndex = 9
+        Me.btn1.Text = "Ordenación"
+        Me.btn1.UseVisualStyleBackColor = True
         '
-        'RadioButton1
+        'rbtn1
         '
-        Me.RadioButton1.AutoSize = True
-        Me.RadioButton1.Checked = True
-        Me.RadioButton1.Location = New System.Drawing.Point(423, 80)
-        Me.RadioButton1.Name = "RadioButton1"
-        Me.RadioButton1.Size = New System.Drawing.Size(104, 21)
-        Me.RadioButton1.TabIndex = 10
-        Me.RadioButton1.TabStop = True
-        Me.RadioButton1.Text = "Ascendente"
-        Me.RadioButton1.UseVisualStyleBackColor = True
+        Me.rbtn1.AutoSize = True
+        Me.rbtn1.Checked = True
+        Me.rbtn1.Location = New System.Drawing.Point(423, 80)
+        Me.rbtn1.Name = "rbtn1"
+        Me.rbtn1.Size = New System.Drawing.Size(104, 21)
+        Me.rbtn1.TabIndex = 10
+        Me.rbtn1.TabStop = True
+        Me.rbtn1.Text = "Ascendente"
+        Me.rbtn1.UseVisualStyleBackColor = True
         '
-        'RadioButton2
+        'rbtn2
         '
-        Me.RadioButton2.AutoSize = True
-        Me.RadioButton2.Location = New System.Drawing.Point(423, 105)
-        Me.RadioButton2.Name = "RadioButton2"
-        Me.RadioButton2.Size = New System.Drawing.Size(113, 21)
-        Me.RadioButton2.TabIndex = 11
-        Me.RadioButton2.TabStop = True
-        Me.RadioButton2.Text = "Descendente"
-        Me.RadioButton2.UseVisualStyleBackColor = True
+        Me.rbtn2.AutoSize = True
+        Me.rbtn2.Location = New System.Drawing.Point(423, 105)
+        Me.rbtn2.Name = "rbtn2"
+        Me.rbtn2.Size = New System.Drawing.Size(113, 21)
+        Me.rbtn2.TabIndex = 11
+        Me.rbtn2.TabStop = True
+        Me.rbtn2.Text = "Descendente"
+        Me.rbtn2.UseVisualStyleBackColor = True
         '
-        'TextBox2
+        'txt2
         '
-        Me.TextBox2.Location = New System.Drawing.Point(89, 109)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(148, 22)
-        Me.TextBox2.TabIndex = 2
+        Me.txt2.Location = New System.Drawing.Point(89, 109)
+        Me.txt2.Name = "txt2"
+        Me.txt2.Size = New System.Drawing.Size(148, 22)
+        Me.txt2.TabIndex = 2
         '
-        'TextBox3
+        'txt3
         '
-        Me.TextBox3.Location = New System.Drawing.Point(89, 138)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(148, 22)
-        Me.TextBox3.TabIndex = 3
+        Me.txt3.Location = New System.Drawing.Point(89, 138)
+        Me.txt3.Name = "txt3"
+        Me.txt3.Size = New System.Drawing.Size(148, 22)
+        Me.txt3.TabIndex = 3
         '
-        'TextBox1
+        'txt1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(89, 81)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(148, 22)
-        Me.TextBox1.TabIndex = 1
+        Me.txt1.Location = New System.Drawing.Point(89, 81)
+        Me.txt1.Name = "txt1"
+        Me.txt1.Size = New System.Drawing.Size(148, 22)
+        Me.txt1.TabIndex = 1
         '
-        'TextBox4
+        'txt4
         '
-        Me.TextBox4.Location = New System.Drawing.Point(89, 167)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(148, 22)
-        Me.TextBox4.TabIndex = 4
+        Me.txt4.Location = New System.Drawing.Point(89, 167)
+        Me.txt4.Name = "txt4"
+        Me.txt4.Size = New System.Drawing.Size(148, 22)
+        Me.txt4.TabIndex = 4
         '
-        'TextBox5
+        'txt5
         '
-        Me.TextBox5.Location = New System.Drawing.Point(89, 196)
-        Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(148, 22)
-        Me.TextBox5.TabIndex = 5
+        Me.txt5.Location = New System.Drawing.Point(89, 196)
+        Me.txt5.Name = "txt5"
+        Me.txt5.Size = New System.Drawing.Size(148, 22)
+        Me.txt5.TabIndex = 5
         '
-        'TextBox6
+        'txt6
         '
-        Me.TextBox6.Location = New System.Drawing.Point(89, 225)
-        Me.TextBox6.Name = "TextBox6"
-        Me.TextBox6.Size = New System.Drawing.Size(148, 22)
-        Me.TextBox6.TabIndex = 6
+        Me.txt6.Location = New System.Drawing.Point(89, 225)
+        Me.txt6.Name = "txt6"
+        Me.txt6.Size = New System.Drawing.Size(148, 22)
+        Me.txt6.TabIndex = 6
         '
-        'TextBox7
+        'txt7
         '
-        Me.TextBox7.Location = New System.Drawing.Point(89, 254)
-        Me.TextBox7.Name = "TextBox7"
-        Me.TextBox7.Size = New System.Drawing.Size(148, 22)
-        Me.TextBox7.TabIndex = 7
+        Me.txt7.Location = New System.Drawing.Point(89, 254)
+        Me.txt7.Name = "txt7"
+        Me.txt7.Size = New System.Drawing.Size(148, 22)
+        Me.txt7.TabIndex = 7
         '
-        'TextBox8
+        'txt8
         '
-        Me.TextBox8.Location = New System.Drawing.Point(89, 283)
-        Me.TextBox8.Name = "TextBox8"
-        Me.TextBox8.Size = New System.Drawing.Size(148, 22)
-        Me.TextBox8.TabIndex = 8
+        Me.txt8.Location = New System.Drawing.Point(89, 283)
+        Me.txt8.Name = "txt8"
+        Me.txt8.Size = New System.Drawing.Size(148, 22)
+        Me.txt8.TabIndex = 8
         '
-        'Button1
+        'btn4
         '
-        Me.Button1.Location = New System.Drawing.Point(227, 374)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(100, 33)
-        Me.Button1.TabIndex = 13
-        Me.Button1.Text = "Divisibles"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.btn4.Location = New System.Drawing.Point(224, 370)
+        Me.btn4.Name = "btn4"
+        Me.btn4.Size = New System.Drawing.Size(100, 33)
+        Me.btn4.TabIndex = 13
+        Me.btn4.Text = "Divisibles"
+        Me.btn4.UseVisualStyleBackColor = True
         '
         'TextBox9
         '
-        Me.TextBox9.Location = New System.Drawing.Point(102, 385)
+        Me.TextBox9.Location = New System.Drawing.Point(101, 375)
         Me.TextBox9.Name = "TextBox9"
         Me.TextBox9.Size = New System.Drawing.Size(100, 22)
         Me.TextBox9.TabIndex = 12
         '
-        'TextBox10
+        'txtnum9
         '
-        Me.TextBox10.Location = New System.Drawing.Point(342, 208)
-        Me.TextBox10.Name = "TextBox10"
-        Me.TextBox10.Size = New System.Drawing.Size(100, 22)
-        Me.TextBox10.TabIndex = 14
+        Me.txtnum9.Location = New System.Drawing.Point(342, 208)
+        Me.txtnum9.Name = "txtnum9"
+        Me.txtnum9.Size = New System.Drawing.Size(100, 22)
+        Me.txtnum9.TabIndex = 14
         '
-        'TextBox11
+        'txt10
         '
-        Me.TextBox11.Location = New System.Drawing.Point(342, 236)
-        Me.TextBox11.Name = "TextBox11"
-        Me.TextBox11.Size = New System.Drawing.Size(100, 22)
-        Me.TextBox11.TabIndex = 15
+        Me.txt10.Location = New System.Drawing.Point(342, 236)
+        Me.txt10.Name = "txt10"
+        Me.txt10.Size = New System.Drawing.Size(100, 22)
+        Me.txt10.TabIndex = 15
         '
-        'Button3
+        'btn2
         '
-        Me.Button3.Location = New System.Drawing.Point(464, 208)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(100, 50)
-        Me.Button3.TabIndex = 16
-        Me.Button3.Text = "Ultimo Día"
-        Me.Button3.UseVisualStyleBackColor = True
+        Me.btn2.Location = New System.Drawing.Point(464, 208)
+        Me.btn2.Name = "btn2"
+        Me.btn2.Size = New System.Drawing.Size(100, 50)
+        Me.btn2.TabIndex = 16
+        Me.btn2.Text = "Ultimo Día"
+        Me.btn2.UseVisualStyleBackColor = True
         '
-        'Label1
+        'lbl1
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(89, 58)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(148, 17)
-        Me.Label1.TabIndex = 0
-        Me.Label1.Text = "Introduce los números"
+        Me.lbl1.AutoSize = True
+        Me.lbl1.Location = New System.Drawing.Point(89, 58)
+        Me.lbl1.Name = "lbl1"
+        Me.lbl1.Size = New System.Drawing.Size(51, 17)
+        Me.lbl1.TabIndex = 0
+        Me.lbl1.Text = "Label1"
         '
-        'Label2
+        'lblnum1
         '
-        Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(44, 81)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(39, 17)
-        Me.Label2.TabIndex = 17
-        Me.Label2.Text = "N º 1"
+        Me.lblnum1.AutoSize = True
+        Me.lblnum1.Location = New System.Drawing.Point(44, 81)
+        Me.lblnum1.Name = "lblnum1"
+        Me.lblnum1.Size = New System.Drawing.Size(39, 17)
+        Me.lblnum1.TabIndex = 17
+        Me.lblnum1.Text = "N º 1"
         '
-        'Label3
+        'lblnum2
         '
-        Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(44, 109)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(39, 17)
-        Me.Label3.TabIndex = 18
-        Me.Label3.Text = "N º 2"
+        Me.lblnum2.AutoSize = True
+        Me.lblnum2.Location = New System.Drawing.Point(44, 109)
+        Me.lblnum2.Name = "lblnum2"
+        Me.lblnum2.Size = New System.Drawing.Size(39, 17)
+        Me.lblnum2.TabIndex = 18
+        Me.lblnum2.Text = "N º 2"
         '
-        'Label4
+        'lblnum3
         '
-        Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(44, 138)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(39, 17)
-        Me.Label4.TabIndex = 19
-        Me.Label4.Text = "N º 3"
+        Me.lblnum3.AutoSize = True
+        Me.lblnum3.Location = New System.Drawing.Point(44, 138)
+        Me.lblnum3.Name = "lblnum3"
+        Me.lblnum3.Size = New System.Drawing.Size(39, 17)
+        Me.lblnum3.TabIndex = 19
+        Me.lblnum3.Text = "N º 3"
         '
-        'Label5
+        'lblnum4
         '
-        Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(44, 167)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(39, 17)
-        Me.Label5.TabIndex = 20
-        Me.Label5.Text = "N º 4"
+        Me.lblnum4.AutoSize = True
+        Me.lblnum4.Location = New System.Drawing.Point(44, 167)
+        Me.lblnum4.Name = "lblnum4"
+        Me.lblnum4.Size = New System.Drawing.Size(39, 17)
+        Me.lblnum4.TabIndex = 20
+        Me.lblnum4.Text = "N º 4"
         '
-        'Label6
+        'lblnum5
         '
-        Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(44, 196)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(39, 17)
-        Me.Label6.TabIndex = 21
-        Me.Label6.Text = "N º 5"
+        Me.lblnum5.AutoSize = True
+        Me.lblnum5.Location = New System.Drawing.Point(44, 196)
+        Me.lblnum5.Name = "lblnum5"
+        Me.lblnum5.Size = New System.Drawing.Size(39, 17)
+        Me.lblnum5.TabIndex = 21
+        Me.lblnum5.Text = "N º 5"
         '
-        'Label7
+        'lblnum6
         '
-        Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(44, 225)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(39, 17)
-        Me.Label7.TabIndex = 22
-        Me.Label7.Text = "N º 6"
+        Me.lblnum6.AutoSize = True
+        Me.lblnum6.Location = New System.Drawing.Point(44, 225)
+        Me.lblnum6.Name = "lblnum6"
+        Me.lblnum6.Size = New System.Drawing.Size(39, 17)
+        Me.lblnum6.TabIndex = 22
+        Me.lblnum6.Text = "N º 6"
         '
-        'Label8
+        'lblnum7
         '
-        Me.Label8.AutoSize = True
-        Me.Label8.Location = New System.Drawing.Point(44, 254)
-        Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(39, 17)
-        Me.Label8.TabIndex = 23
-        Me.Label8.Text = "N º 7"
+        Me.lblnum7.AutoSize = True
+        Me.lblnum7.Location = New System.Drawing.Point(44, 254)
+        Me.lblnum7.Name = "lblnum7"
+        Me.lblnum7.Size = New System.Drawing.Size(39, 17)
+        Me.lblnum7.TabIndex = 23
+        Me.lblnum7.Text = "N º 7"
         '
-        'Label9
+        'lblnum8
         '
-        Me.Label9.AutoSize = True
-        Me.Label9.Location = New System.Drawing.Point(44, 283)
-        Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(39, 17)
-        Me.Label9.TabIndex = 24
-        Me.Label9.Text = "N º 8"
+        Me.lblnum8.AutoSize = True
+        Me.lblnum8.Location = New System.Drawing.Point(44, 283)
+        Me.lblnum8.Name = "lblnum8"
+        Me.lblnum8.Size = New System.Drawing.Size(39, 17)
+        Me.lblnum8.TabIndex = 24
+        Me.lblnum8.Text = "N º 8"
         '
-        'Label10
+        'lbl11
         '
-        Me.Label10.AutoSize = True
-        Me.Label10.BackColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Label10.Location = New System.Drawing.Point(488, 285)
-        Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(59, 17)
-        Me.Label10.TabIndex = 17
-        Me.Label10.Text = "Label10"
+        Me.lbl11.AutoSize = True
+        Me.lbl11.BackColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.lbl11.Location = New System.Drawing.Point(488, 285)
+        Me.lbl11.Name = "lbl11"
+        Me.lbl11.Size = New System.Drawing.Size(59, 17)
+        Me.lbl11.TabIndex = 17
+        Me.lbl11.Text = "Label10"
         '
-        'Label11
+        'lbl12
         '
-        Me.Label11.AutoSize = True
-        Me.Label11.Location = New System.Drawing.Point(45, 360)
-        Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(176, 17)
-        Me.Label11.TabIndex = 25
-        Me.Label11.Text = "Número de cajas divisibles"
+        Me.lbl12.AutoSize = True
+        Me.lbl12.Location = New System.Drawing.Point(44, 350)
+        Me.lbl12.Name = "lbl12"
+        Me.lbl12.Size = New System.Drawing.Size(176, 17)
+        Me.lbl12.TabIndex = 25
+        Me.lbl12.Text = "Número de cajas divisibles"
         '
-        'Label12
+        'lbl4
         '
-        Me.Label12.AutoSize = True
-        Me.Label12.Location = New System.Drawing.Point(303, 208)
-        Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(34, 17)
-        Me.Label12.TabIndex = 26
-        Me.Label12.Text = "Mes"
+        Me.lbl4.AutoSize = True
+        Me.lbl4.Location = New System.Drawing.Point(303, 208)
+        Me.lbl4.Name = "lbl4"
+        Me.lbl4.Size = New System.Drawing.Size(34, 17)
+        Me.lbl4.TabIndex = 26
+        Me.lbl4.Text = "Mes"
         '
-        'Label13
+        'lbl5
         '
-        Me.Label13.AutoSize = True
-        Me.Label13.Location = New System.Drawing.Point(303, 236)
-        Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(33, 17)
-        Me.Label13.TabIndex = 27
-        Me.Label13.Text = "Año"
+        Me.lbl5.AutoSize = True
+        Me.lbl5.Location = New System.Drawing.Point(303, 236)
+        Me.lbl5.Name = "lbl5"
+        Me.lbl5.Size = New System.Drawing.Size(33, 17)
+        Me.lbl5.TabIndex = 27
+        Me.lbl5.Text = "Año"
         '
-        'Label14
+        'lbl13
         '
-        Me.Label14.AutoSize = True
-        Me.Label14.Location = New System.Drawing.Point(45, 388)
-        Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(51, 17)
-        Me.Label14.TabIndex = 28
-        Me.Label14.Text = "Divisor"
+        Me.lbl13.AutoSize = True
+        Me.lbl13.Location = New System.Drawing.Point(44, 378)
+        Me.lbl13.Name = "lbl13"
+        Me.lbl13.Size = New System.Drawing.Size(51, 17)
+        Me.lbl13.TabIndex = 28
+        Me.lbl13.Text = "Divisor"
         '
-        'Label15
+        'lbl3
         '
-        Me.Label15.AutoSize = True
-        Me.Label15.Location = New System.Drawing.Point(303, 179)
-        Me.Label15.Name = "Label15"
-        Me.Label15.Size = New System.Drawing.Size(136, 17)
-        Me.Label15.TabIndex = 29
-        Me.Label15.Text = "Introduce mes y año"
+        Me.lbl3.AutoSize = True
+        Me.lbl3.Location = New System.Drawing.Point(303, 179)
+        Me.lbl3.Name = "lbl3"
+        Me.lbl3.Size = New System.Drawing.Size(136, 17)
+        Me.lbl3.TabIndex = 29
+        Me.lbl3.Text = "Introduce mes y año"
         '
-        'Label16
+        'lbl7
         '
-        Me.Label16.AutoSize = True
-        Me.Label16.Location = New System.Drawing.Point(301, 61)
-        Me.Label16.Name = "Label16"
-        Me.Label16.Size = New System.Drawing.Size(61, 17)
-        Me.Label16.TabIndex = 30
-        Me.Label16.Text = "Ordenar"
+        Me.lbl7.AutoSize = True
+        Me.lbl7.Location = New System.Drawing.Point(301, 61)
+        Me.lbl7.Name = "lbl7"
+        Me.lbl7.Size = New System.Drawing.Size(61, 17)
+        Me.lbl7.TabIndex = 30
+        Me.lbl7.Text = "Ordenar"
         '
-        'Label17
+        'lbl6
         '
-        Me.Label17.AutoSize = True
-        Me.Label17.Location = New System.Drawing.Point(300, 285)
-        Me.Label17.Name = "Label17"
-        Me.Label17.Size = New System.Drawing.Size(182, 17)
-        Me.Label17.TabIndex = 31
-        Me.Label17.Text = "Ultimo día del mes del año: "
+        Me.lbl6.AutoSize = True
+        Me.lbl6.Location = New System.Drawing.Point(300, 285)
+        Me.lbl6.Name = "lbl6"
+        Me.lbl6.Size = New System.Drawing.Size(182, 17)
+        Me.lbl6.TabIndex = 31
+        Me.lbl6.Text = "Ultimo día del mes del año: "
         '
         'Lenguaje
         '
         Me.Lenguaje.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.Lenguaje.FormattingEnabled = True
         Me.Lenguaje.Items.AddRange(New Object() {"Español", "Català"})
-        Me.Lenguaje.Location = New System.Drawing.Point(464, 381)
+        Me.Lenguaje.Location = New System.Drawing.Point(464, 379)
         Me.Lenguaje.Name = "Lenguaje"
         Me.Lenguaje.Size = New System.Drawing.Size(99, 24)
         Me.Lenguaje.TabIndex = 32
         '
-        'Label18
+        'lbl14
         '
-        Me.Label18.AutoSize = True
-        Me.Label18.Location = New System.Drawing.Point(469, 361)
-        Me.Label18.Name = "Label18"
-        Me.Label18.Size = New System.Drawing.Size(94, 17)
-        Me.Label18.TabIndex = 33
-        Me.Label18.Text = "Elije el idioma"
+        Me.lbl14.AutoSize = True
+        Me.lbl14.Location = New System.Drawing.Point(469, 359)
+        Me.lbl14.Name = "lbl14"
+        Me.lbl14.Size = New System.Drawing.Size(94, 17)
+        Me.lbl14.TabIndex = 33
+        Me.lbl14.Text = "Elije el idioma"
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(612, 430)
-        Me.Controls.Add(Me.Label18)
+        Me.Controls.Add(Me.lbl14)
         Me.Controls.Add(Me.Lenguaje)
-        Me.Controls.Add(Me.Label17)
-        Me.Controls.Add(Me.Label16)
-        Me.Controls.Add(Me.Label15)
-        Me.Controls.Add(Me.Label14)
-        Me.Controls.Add(Me.Label13)
-        Me.Controls.Add(Me.Label12)
-        Me.Controls.Add(Me.Label11)
-        Me.Controls.Add(Me.Label10)
-        Me.Controls.Add(Me.Label9)
-        Me.Controls.Add(Me.Label8)
-        Me.Controls.Add(Me.Label7)
-        Me.Controls.Add(Me.Label6)
-        Me.Controls.Add(Me.Label5)
-        Me.Controls.Add(Me.Label4)
-        Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.TextBox11)
-        Me.Controls.Add(Me.TextBox10)
+        Me.Controls.Add(Me.lbl6)
+        Me.Controls.Add(Me.lbl7)
+        Me.Controls.Add(Me.lbl3)
+        Me.Controls.Add(Me.lbl13)
+        Me.Controls.Add(Me.lbl5)
+        Me.Controls.Add(Me.lbl4)
+        Me.Controls.Add(Me.lbl12)
+        Me.Controls.Add(Me.lbl11)
+        Me.Controls.Add(Me.lblnum8)
+        Me.Controls.Add(Me.lblnum7)
+        Me.Controls.Add(Me.lblnum6)
+        Me.Controls.Add(Me.lblnum5)
+        Me.Controls.Add(Me.lblnum4)
+        Me.Controls.Add(Me.lblnum3)
+        Me.Controls.Add(Me.lblnum2)
+        Me.Controls.Add(Me.lblnum1)
+        Me.Controls.Add(Me.lbl1)
+        Me.Controls.Add(Me.btn2)
+        Me.Controls.Add(Me.txt10)
+        Me.Controls.Add(Me.txtnum9)
         Me.Controls.Add(Me.TextBox9)
-        Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.TextBox8)
-        Me.Controls.Add(Me.TextBox7)
-        Me.Controls.Add(Me.TextBox6)
-        Me.Controls.Add(Me.TextBox5)
-        Me.Controls.Add(Me.TextBox4)
-        Me.Controls.Add(Me.TextBox1)
-        Me.Controls.Add(Me.TextBox3)
-        Me.Controls.Add(Me.TextBox2)
-        Me.Controls.Add(Me.RadioButton2)
-        Me.Controls.Add(Me.RadioButton1)
-        Me.Controls.Add(Me.Ordenación)
+        Me.Controls.Add(Me.btn4)
+        Me.Controls.Add(Me.txt8)
+        Me.Controls.Add(Me.txt7)
+        Me.Controls.Add(Me.txt6)
+        Me.Controls.Add(Me.txt5)
+        Me.Controls.Add(Me.txt4)
+        Me.Controls.Add(Me.txt1)
+        Me.Controls.Add(Me.txt3)
+        Me.Controls.Add(Me.txt2)
+        Me.Controls.Add(Me.rbtn2)
+        Me.Controls.Add(Me.rbtn1)
+        Me.Controls.Add(Me.btn1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D
         Me.MaximizeBox = False
         Me.Name = "Form1"
@@ -407,39 +407,39 @@ Partial Class Form1
         Me.PerformLayout()
 
     End Sub
-    Friend WithEvents Ordenación As Button
-    Friend WithEvents RadioButton1 As RadioButton
-    Friend WithEvents RadioButton2 As RadioButton
-    Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents TextBox3 As TextBox
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents TextBox4 As TextBox
-    Friend WithEvents TextBox5 As TextBox
-    Friend WithEvents TextBox6 As TextBox
-    Friend WithEvents TextBox7 As TextBox
-    Friend WithEvents TextBox8 As TextBox
-    Friend WithEvents Button1 As Button
+    Friend WithEvents btn1 As Button
+    Friend WithEvents rbtn1 As RadioButton
+    Friend WithEvents rbtn2 As RadioButton
+    Friend WithEvents txt2 As TextBox
+    Friend WithEvents txt3 As TextBox
+    Friend WithEvents txt1 As TextBox
+    Friend WithEvents txt4 As TextBox
+    Friend WithEvents txt5 As TextBox
+    Friend WithEvents txt6 As TextBox
+    Friend WithEvents txt7 As TextBox
+    Friend WithEvents txt8 As TextBox
+    Friend WithEvents btn4 As Button
     Friend WithEvents TextBox9 As TextBox
-    Friend WithEvents TextBox10 As TextBox
-    Friend WithEvents TextBox11 As TextBox
-    Friend WithEvents Button3 As Button
-    Friend WithEvents Label1 As Label
-    Friend WithEvents Label2 As Label
-    Friend WithEvents Label3 As Label
-    Friend WithEvents Label4 As Label
-    Friend WithEvents Label5 As Label
-    Friend WithEvents Label6 As Label
-    Friend WithEvents Label7 As Label
-    Friend WithEvents Label8 As Label
-    Friend WithEvents Label9 As Label
-    Friend WithEvents Label10 As Label
-    Friend WithEvents Label11 As Label
-    Friend WithEvents Label12 As Label
-    Friend WithEvents Label13 As Label
-    Friend WithEvents Label14 As Label
-    Friend WithEvents Label15 As Label
-    Friend WithEvents Label16 As Label
-    Friend WithEvents Label17 As Label
+    Friend WithEvents txtnum9 As TextBox
+    Friend WithEvents txt10 As TextBox
+    Friend WithEvents btn2 As Button
+    Friend WithEvents lbl1 As Label
+    Friend WithEvents lblnum1 As Label
+    Friend WithEvents lblnum2 As Label
+    Friend WithEvents lblnum3 As Label
+    Friend WithEvents lblnum4 As Label
+    Friend WithEvents lblnum5 As Label
+    Friend WithEvents lblnum6 As Label
+    Friend WithEvents lblnum7 As Label
+    Friend WithEvents lblnum8 As Label
+    Friend WithEvents lbl11 As Label
+    Friend WithEvents lbl12 As Label
+    Friend WithEvents lbl4 As Label
+    Friend WithEvents lbl5 As Label
+    Friend WithEvents lbl13 As Label
+    Friend WithEvents lbl3 As Label
+    Friend WithEvents lbl7 As Label
+    Friend WithEvents lbl6 As Label
     Friend WithEvents Lenguaje As ComboBox
-    Friend WithEvents Label18 As Label
+    Friend WithEvents lbl14 As Label
 End Class
