@@ -61,7 +61,7 @@ Partial Class Form1
         '
         'btn1
         '
-        Me.btn1.Location = New System.Drawing.Point(304, 81)
+        Me.btn1.Location = New System.Drawing.Point(319, 81)
         Me.btn1.Name = "btn1"
         Me.btn1.Size = New System.Drawing.Size(113, 39)
         Me.btn1.TabIndex = 9
@@ -72,7 +72,7 @@ Partial Class Form1
         '
         Me.rbtn1.AutoSize = True
         Me.rbtn1.Checked = True
-        Me.rbtn1.Location = New System.Drawing.Point(423, 80)
+        Me.rbtn1.Location = New System.Drawing.Point(438, 80)
         Me.rbtn1.Name = "rbtn1"
         Me.rbtn1.Size = New System.Drawing.Size(104, 21)
         Me.rbtn1.TabIndex = 10
@@ -83,7 +83,7 @@ Partial Class Form1
         'rbtn2
         '
         Me.rbtn2.AutoSize = True
-        Me.rbtn2.Location = New System.Drawing.Point(423, 105)
+        Me.rbtn2.Location = New System.Drawing.Point(438, 105)
         Me.rbtn2.Name = "rbtn2"
         Me.rbtn2.Size = New System.Drawing.Size(113, 21)
         Me.rbtn2.TabIndex = 11
@@ -93,63 +93,63 @@ Partial Class Form1
         '
         'txt2
         '
-        Me.txt2.Location = New System.Drawing.Point(89, 109)
+        Me.txt2.Location = New System.Drawing.Point(104, 109)
         Me.txt2.Name = "txt2"
         Me.txt2.Size = New System.Drawing.Size(148, 22)
         Me.txt2.TabIndex = 2
         '
         'txt3
         '
-        Me.txt3.Location = New System.Drawing.Point(89, 138)
+        Me.txt3.Location = New System.Drawing.Point(104, 138)
         Me.txt3.Name = "txt3"
         Me.txt3.Size = New System.Drawing.Size(148, 22)
         Me.txt3.TabIndex = 3
         '
         'txt1
         '
-        Me.txt1.Location = New System.Drawing.Point(89, 81)
+        Me.txt1.Location = New System.Drawing.Point(104, 81)
         Me.txt1.Name = "txt1"
         Me.txt1.Size = New System.Drawing.Size(148, 22)
         Me.txt1.TabIndex = 1
         '
         'txt4
         '
-        Me.txt4.Location = New System.Drawing.Point(89, 167)
+        Me.txt4.Location = New System.Drawing.Point(104, 167)
         Me.txt4.Name = "txt4"
         Me.txt4.Size = New System.Drawing.Size(148, 22)
         Me.txt4.TabIndex = 4
         '
         'txt5
         '
-        Me.txt5.Location = New System.Drawing.Point(89, 196)
+        Me.txt5.Location = New System.Drawing.Point(104, 196)
         Me.txt5.Name = "txt5"
         Me.txt5.Size = New System.Drawing.Size(148, 22)
         Me.txt5.TabIndex = 5
         '
         'txt6
         '
-        Me.txt6.Location = New System.Drawing.Point(89, 225)
+        Me.txt6.Location = New System.Drawing.Point(104, 225)
         Me.txt6.Name = "txt6"
         Me.txt6.Size = New System.Drawing.Size(148, 22)
         Me.txt6.TabIndex = 6
         '
         'txt7
         '
-        Me.txt7.Location = New System.Drawing.Point(89, 254)
+        Me.txt7.Location = New System.Drawing.Point(104, 254)
         Me.txt7.Name = "txt7"
         Me.txt7.Size = New System.Drawing.Size(148, 22)
         Me.txt7.TabIndex = 7
         '
         'txt8
         '
-        Me.txt8.Location = New System.Drawing.Point(89, 283)
+        Me.txt8.Location = New System.Drawing.Point(104, 283)
         Me.txt8.Name = "txt8"
         Me.txt8.Size = New System.Drawing.Size(148, 22)
         Me.txt8.TabIndex = 8
         '
         'btn4
         '
-        Me.btn4.Location = New System.Drawing.Point(224, 370)
+        Me.btn4.Location = New System.Drawing.Point(239, 370)
         Me.btn4.Name = "btn4"
         Me.btn4.Size = New System.Drawing.Size(100, 33)
         Me.btn4.TabIndex = 13
@@ -158,28 +158,28 @@ Partial Class Form1
         '
         'TextBox9
         '
-        Me.TextBox9.Location = New System.Drawing.Point(101, 375)
+        Me.TextBox9.Location = New System.Drawing.Point(116, 375)
         Me.TextBox9.Name = "TextBox9"
         Me.TextBox9.Size = New System.Drawing.Size(100, 22)
         Me.TextBox9.TabIndex = 12
         '
         'txtnum9
         '
-        Me.txtnum9.Location = New System.Drawing.Point(342, 208)
+        Me.txtnum9.Location = New System.Drawing.Point(357, 208)
         Me.txtnum9.Name = "txtnum9"
         Me.txtnum9.Size = New System.Drawing.Size(100, 22)
         Me.txtnum9.TabIndex = 14
         '
         'txt10
         '
-        Me.txt10.Location = New System.Drawing.Point(342, 236)
+        Me.txt10.Location = New System.Drawing.Point(357, 236)
         Me.txt10.Name = "txt10"
         Me.txt10.Size = New System.Drawing.Size(100, 22)
         Me.txt10.TabIndex = 15
         '
         'btn2
         '
-        Me.btn2.Location = New System.Drawing.Point(464, 208)
+        Me.btn2.Location = New System.Drawing.Point(479, 208)
         Me.btn2.Name = "btn2"
         Me.btn2.Size = New System.Drawing.Size(100, 50)
         Me.btn2.TabIndex = 16
@@ -189,7 +189,7 @@ Partial Class Form1
         'lbl1
         '
         Me.lbl1.AutoSize = True
-        Me.lbl1.Location = New System.Drawing.Point(89, 58)
+        Me.lbl1.Location = New System.Drawing.Point(104, 58)
         Me.lbl1.Name = "lbl1"
         Me.lbl1.Size = New System.Drawing.Size(51, 17)
         Me.lbl1.TabIndex = 0
@@ -198,7 +198,7 @@ Partial Class Form1
         'lblnum1
         '
         Me.lblnum1.AutoSize = True
-        Me.lblnum1.Location = New System.Drawing.Point(44, 81)
+        Me.lblnum1.Location = New System.Drawing.Point(59, 81)
         Me.lblnum1.Name = "lblnum1"
         Me.lblnum1.Size = New System.Drawing.Size(39, 17)
         Me.lblnum1.TabIndex = 17
@@ -207,7 +207,7 @@ Partial Class Form1
         'lblnum2
         '
         Me.lblnum2.AutoSize = True
-        Me.lblnum2.Location = New System.Drawing.Point(44, 109)
+        Me.lblnum2.Location = New System.Drawing.Point(59, 109)
         Me.lblnum2.Name = "lblnum2"
         Me.lblnum2.Size = New System.Drawing.Size(39, 17)
         Me.lblnum2.TabIndex = 18
@@ -216,7 +216,7 @@ Partial Class Form1
         'lblnum3
         '
         Me.lblnum3.AutoSize = True
-        Me.lblnum3.Location = New System.Drawing.Point(44, 138)
+        Me.lblnum3.Location = New System.Drawing.Point(59, 138)
         Me.lblnum3.Name = "lblnum3"
         Me.lblnum3.Size = New System.Drawing.Size(39, 17)
         Me.lblnum3.TabIndex = 19
@@ -225,7 +225,7 @@ Partial Class Form1
         'lblnum4
         '
         Me.lblnum4.AutoSize = True
-        Me.lblnum4.Location = New System.Drawing.Point(44, 167)
+        Me.lblnum4.Location = New System.Drawing.Point(59, 167)
         Me.lblnum4.Name = "lblnum4"
         Me.lblnum4.Size = New System.Drawing.Size(39, 17)
         Me.lblnum4.TabIndex = 20
@@ -234,7 +234,7 @@ Partial Class Form1
         'lblnum5
         '
         Me.lblnum5.AutoSize = True
-        Me.lblnum5.Location = New System.Drawing.Point(44, 196)
+        Me.lblnum5.Location = New System.Drawing.Point(59, 196)
         Me.lblnum5.Name = "lblnum5"
         Me.lblnum5.Size = New System.Drawing.Size(39, 17)
         Me.lblnum5.TabIndex = 21
@@ -243,7 +243,7 @@ Partial Class Form1
         'lblnum6
         '
         Me.lblnum6.AutoSize = True
-        Me.lblnum6.Location = New System.Drawing.Point(44, 225)
+        Me.lblnum6.Location = New System.Drawing.Point(59, 225)
         Me.lblnum6.Name = "lblnum6"
         Me.lblnum6.Size = New System.Drawing.Size(39, 17)
         Me.lblnum6.TabIndex = 22
@@ -252,7 +252,7 @@ Partial Class Form1
         'lblnum7
         '
         Me.lblnum7.AutoSize = True
-        Me.lblnum7.Location = New System.Drawing.Point(44, 254)
+        Me.lblnum7.Location = New System.Drawing.Point(59, 254)
         Me.lblnum7.Name = "lblnum7"
         Me.lblnum7.Size = New System.Drawing.Size(39, 17)
         Me.lblnum7.TabIndex = 23
@@ -261,7 +261,7 @@ Partial Class Form1
         'lblnum8
         '
         Me.lblnum8.AutoSize = True
-        Me.lblnum8.Location = New System.Drawing.Point(44, 283)
+        Me.lblnum8.Location = New System.Drawing.Point(59, 283)
         Me.lblnum8.Name = "lblnum8"
         Me.lblnum8.Size = New System.Drawing.Size(39, 17)
         Me.lblnum8.TabIndex = 24
@@ -271,16 +271,16 @@ Partial Class Form1
         '
         Me.lbl11.AutoSize = True
         Me.lbl11.BackColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.lbl11.Location = New System.Drawing.Point(488, 285)
+        Me.lbl11.Location = New System.Drawing.Point(503, 285)
         Me.lbl11.Name = "lbl11"
-        Me.lbl11.Size = New System.Drawing.Size(59, 17)
+        Me.lbl11.Size = New System.Drawing.Size(16, 17)
         Me.lbl11.TabIndex = 17
-        Me.lbl11.Text = "Label10"
+        Me.lbl11.Text = "0"
         '
         'lbl12
         '
         Me.lbl12.AutoSize = True
-        Me.lbl12.Location = New System.Drawing.Point(44, 350)
+        Me.lbl12.Location = New System.Drawing.Point(59, 350)
         Me.lbl12.Name = "lbl12"
         Me.lbl12.Size = New System.Drawing.Size(176, 17)
         Me.lbl12.TabIndex = 25
@@ -289,7 +289,7 @@ Partial Class Form1
         'lbl4
         '
         Me.lbl4.AutoSize = True
-        Me.lbl4.Location = New System.Drawing.Point(303, 208)
+        Me.lbl4.Location = New System.Drawing.Point(318, 208)
         Me.lbl4.Name = "lbl4"
         Me.lbl4.Size = New System.Drawing.Size(34, 17)
         Me.lbl4.TabIndex = 26
@@ -298,7 +298,7 @@ Partial Class Form1
         'lbl5
         '
         Me.lbl5.AutoSize = True
-        Me.lbl5.Location = New System.Drawing.Point(303, 236)
+        Me.lbl5.Location = New System.Drawing.Point(318, 236)
         Me.lbl5.Name = "lbl5"
         Me.lbl5.Size = New System.Drawing.Size(33, 17)
         Me.lbl5.TabIndex = 27
@@ -307,7 +307,7 @@ Partial Class Form1
         'lbl13
         '
         Me.lbl13.AutoSize = True
-        Me.lbl13.Location = New System.Drawing.Point(44, 378)
+        Me.lbl13.Location = New System.Drawing.Point(59, 378)
         Me.lbl13.Name = "lbl13"
         Me.lbl13.Size = New System.Drawing.Size(51, 17)
         Me.lbl13.TabIndex = 28
@@ -316,7 +316,7 @@ Partial Class Form1
         'lbl3
         '
         Me.lbl3.AutoSize = True
-        Me.lbl3.Location = New System.Drawing.Point(303, 179)
+        Me.lbl3.Location = New System.Drawing.Point(318, 179)
         Me.lbl3.Name = "lbl3"
         Me.lbl3.Size = New System.Drawing.Size(136, 17)
         Me.lbl3.TabIndex = 29
@@ -325,7 +325,7 @@ Partial Class Form1
         'lbl7
         '
         Me.lbl7.AutoSize = True
-        Me.lbl7.Location = New System.Drawing.Point(301, 61)
+        Me.lbl7.Location = New System.Drawing.Point(316, 61)
         Me.lbl7.Name = "lbl7"
         Me.lbl7.Size = New System.Drawing.Size(61, 17)
         Me.lbl7.TabIndex = 30
@@ -334,7 +334,7 @@ Partial Class Form1
         'lbl6
         '
         Me.lbl6.AutoSize = True
-        Me.lbl6.Location = New System.Drawing.Point(300, 285)
+        Me.lbl6.Location = New System.Drawing.Point(315, 285)
         Me.lbl6.Name = "lbl6"
         Me.lbl6.Size = New System.Drawing.Size(182, 17)
         Me.lbl6.TabIndex = 31
@@ -345,7 +345,7 @@ Partial Class Form1
         Me.Lenguaje.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.Lenguaje.FormattingEnabled = True
         Me.Lenguaje.Items.AddRange(New Object() {"Español", "Català"})
-        Me.Lenguaje.Location = New System.Drawing.Point(464, 379)
+        Me.Lenguaje.Location = New System.Drawing.Point(479, 379)
         Me.Lenguaje.Name = "Lenguaje"
         Me.Lenguaje.Size = New System.Drawing.Size(99, 24)
         Me.Lenguaje.TabIndex = 32
@@ -353,7 +353,7 @@ Partial Class Form1
         'lbl14
         '
         Me.lbl14.AutoSize = True
-        Me.lbl14.Location = New System.Drawing.Point(469, 359)
+        Me.lbl14.Location = New System.Drawing.Point(484, 359)
         Me.lbl14.Name = "lbl14"
         Me.lbl14.Size = New System.Drawing.Size(94, 17)
         Me.lbl14.TabIndex = 33

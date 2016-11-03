@@ -13,6 +13,7 @@
         If (rbtn2.Checked = True) Then
             For c = 0 To 7
                 For c1 = c To 7
+
                     If (CInt(tNumeros(c)) < CInt(tNumeros(c1))) Then
                         auxiliar = tNumeros(c1)
                         tNumeros(c1) = tNumeros(c)
@@ -81,7 +82,7 @@
                 tNumeros(0) = CDbl(txt1.Text)
                 txt1.BackColor = Color.White
             Catch ex As Exception
-                MsgBox("Nº1 es un valor erroneo, introduce un número")
+                MsgBox(cambio.Error1)
                 txt1.Focus()
                 txt1.BackColor = Color.Red
                 Exit Sub
@@ -95,7 +96,7 @@
                 txt2.BackColor = Color.White
 
             Catch ex As Exception
-                MsgBox("Nº2 es un valor erroneo, introduce un número")
+                MsgBox(cambio.Error2)
                 txt2.Focus()
                 txt2.BackColor = Color.Red
                 Exit Sub
@@ -110,7 +111,7 @@
                 txt3.BackColor = Color.White
 
             Catch ex As Exception
-                MsgBox("Nº3 es un valor erroneo, introduce un número")
+                MsgBox(cambio.Error3)
                 txt3.Focus()
                 txt3.BackColor = Color.Red
                 Exit Sub
@@ -125,7 +126,7 @@
                 txt4.BackColor = Color.White
 
             Catch ex As Exception
-                MsgBox("Nº4 es un valor erroneo, introduce un número")
+                MsgBox(cambio.Error4)
                 txt4.Focus()
                 txt4.BackColor = Color.Red
                 Exit Sub
@@ -140,7 +141,7 @@
                 txt5.BackColor = Color.White
 
             Catch ex As Exception
-                MsgBox("Nº5 es un valor erroneo, introduce un número")
+                MsgBox(cambio.Error5)
                 txt5.Focus()
                 txt5.BackColor = Color.Red
                 Exit Sub
@@ -155,7 +156,7 @@
                 txt6.BackColor = Color.White
 
             Catch ex As Exception
-                MsgBox("Nº6 es un valor erroneo, introduce un número")
+                MsgBox(cambio.Error6)
                 txt6.Focus()
                 txt6.BackColor = Color.Red
                 Exit Sub
@@ -170,7 +171,7 @@
                 txt7.BackColor = Color.White
 
             Catch ex As Exception
-                MsgBox("Nº7 es un valor erroneo, introduce un número")
+                MsgBox(cambio.Error7)
                 txt7.Focus()
                 txt7.BackColor = Color.Red
                 Exit Sub
@@ -185,7 +186,8 @@
                 txt8.BackColor = Color.White
 
             Catch ex As Exception
-                MsgBox("Nº8 es un valor erroneo, introduce un número")
+
+                MsgBox(cambio.Error8)
                 txt8.Focus()
                 txt8.BackColor = Color.Red
                 Exit Sub
@@ -202,5 +204,49 @@
 
     Private Sub Lenguaje_SelectedIndexChanged(sender As Object, e As EventArgs) Handles Lenguaje.SelectedIndexChanged
         cambio.Textos_cambios()
+    End Sub
+
+    Private Sub txtnum9_Validating(sender As Object, e As System.ComponentModel.CancelEventArgs) Handles txtnum9.Validating
+        Try
+            If (txtnum9.Text > 12 Or txtnum9.Text < 1) Then
+                MsgBox("Introduce un número del 1 al 12")
+                txtnum9.Focus()
+            End If
+        Catch
+            MsgBox(cambio.Error10)
+        End Try
+    End Sub
+
+    Private Sub btn2_Click(sender As Object, e As EventArgs) Handles btn2.Click
+        Dim any As Integer
+        Dim mes As Integer
+        Try
+            any = CInt(txt10.Text)
+        Catch
+            MsgBox(cambio.Error9)
+            Exit Sub
+        End Try
+        Try
+            mes = CInt(txtnum9.Text)
+        Catch
+            MsgBox(cambio.Error10)
+        End Try
+        If (any Mod 4 = 0 And (any Mod 400 = 0 Or any Mod 100 <> 0)) Then
+            If (mes = 1 Or mes = 3 Or mes = 5 Or mes = 7 Or mes = 8 Or mes = 10 Or mes = 12) Then
+                lbl11.Text = 31
+            ElseIf (mes = 4 Or mes = 6 Or mes = 9 Or mes = 11) Then
+                lbl11.Text = 30
+            Else
+                lbl11.Text = 29
+            End If
+        Else
+            If (mes = 1 Or mes = 3 Or mes = 5 Or mes = 7 Or mes = 8 Or mes = 10 Or mes = 12) Then
+                lbl11.Text = 31
+            ElseIf (mes = 4 Or mes = 6 Or mes = 9 Or mes = 11) Then
+                lbl11.Text = 30
+            Else
+                lbl11.Text = 28
+            End If
+        End If
     End Sub
 End Class
